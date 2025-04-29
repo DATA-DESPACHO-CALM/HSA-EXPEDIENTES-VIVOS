@@ -29,7 +29,7 @@ if st.sidebar.button("🔄 Recargar datos", use_container_width=True):
 @st.cache_data
 def load_data():
     # Definir la ruta al archivo Excel
-    file_path = "HSA EXP VIVOS.xlsx"
+    file_path = "HSA H.M ALVARO ECHEVERRY EXPEDIENTES ACTIVOS.xlsx"
     
     # Cargar el archivo Excel
     df = pd.read_excel(file_path, sheet_name="HSA")
